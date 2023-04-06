@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    display: block;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 60px;
+
+
+}
+
+a {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #989D9C;
+    margin-right: 15px;
+    cursor: pointer;
+
+}
+
+#login {
+    margin-left: 10px;
+    border: none;
+    width: 130px;
+    height: 41px;
+    background: #665AE1;
+    border-radius: 40.5px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
+
+
+img {
+    position: absolute;
+    width: 468px;
+    height: 400px;
+    margin-top: 117px;
+    margin-left: 117px;
+}
+
+h1 {
+    position: absolute;
+    width: 513px;
+    height: 122px;
+    margin-top: 117px;
+    margin-left: 680px;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+
+
+
+
+}
+
+h2 {
+    position: absolute;
+    width: 448px;
+    height: 71px;
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    margin-top: 220px;
+    margin-left: 680px;
+
+    color: #515151;
+
+
+
+
+}
+
+p {
+    position: absolute;
+    width: 515px;
+    height: 87px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 300px;
+    margin-left: 680px;
+    color: #848484;
+
+
+}
+
+#explore {
+    position: absolute;
+    border: none;
+    width: 239px;
+    height: 64px;
+    margin-top: 430px;
+    margin-left: 680px;
+    background: #ADFF00;
+    border-radius: 45.5px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:830px) {
+
+    header {
+        display: none;
+    }
+
+    img {
+
+
+        display: block;
+        position: absolute;
+        width: 300px;
+        height: 273px;
+        margin-top: 120px;
+        margin-left: 50px;
+        margin-right: 22px;
+    }
+
+    h1 {
+
+        position: absolute;
+        width: 263px;
+        height: 52px;
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 61px;
+        margin-top: 390px;
+        margin-left: 64px;
+        margin-right: 63px;
+        color: #515151;
+
+    }
+
+    h2 {
+        position: absolute;
+        width: 232px;
+        height: 37px;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 37px;
+        margin-top: 450px;
+        margin-left: 79px;
+        color: #515151;
+
+    }
+
+
+    p {
+        display: none;
+    }
+
+    #explore {
+        position: absolute;
+        border: none;
+        width: 239px;
+        height: 64px;
+        margin-left: 76px;
+        margin-top: 500px;
+        background: #ADFF00;
+        border-radius: 45.5px;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 34px;
+        color: #000000;
+        cursor: pointer;
+
+
+    }
+
+
+
+}
